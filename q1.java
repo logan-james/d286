@@ -12,6 +12,5 @@ public class q1 {
     for (String line : pattern) {
       System.out.println(line);
     }
-    System.out.println();
   }
 }
