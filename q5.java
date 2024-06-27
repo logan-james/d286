@@ -14,7 +14,7 @@ public class q5 {
     if (digit1 < 0 || digit2 < 0 || digit3 < 0) {
       System.out.println("Invalid input!");
     } else {
-      // Calculate the sume of the digits
+      // Calculate the sum of the digits
       int sum = digit1 + digit2 + digit3;
 
       // Construct the three-digit number
