@@ -10,13 +10,13 @@ public class q9alt {
 
   public static void main(String[] args) {
     Scanner scnr = new Scanner(System.in);
-    Random rand = new Random(2); // Seed used in develop mode
+    Random diffrand = new Random(2); // Seed used in develop mode
     /* Type your code here. */
 
     int count = scnr.nextInt();
 
     for (int i = 0; i < count; i++) {
-      System.out.println(showResults(rand));
+      System.out.println(showResults(diffrand));
     }
 
   }
